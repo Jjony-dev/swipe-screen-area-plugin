@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   height="16"
+   viewBox="0 0 16 16"
+   width="16"
+   version="1.1"
+   id="svg4"
+   sodipodi:docname="icon.svg"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs8" />
+  <sodipodi:namedview
+     id="namedview6"
+     pagecolor="#505050"
+     bordercolor="#ffffff"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="1"
+     showgrid="true"
+     inkscape:zoom="3.2282942"
+     inkscape:cx="4.4915362"
+     inkscape:cy="7.4342668"
+     inkscape:window-width="1598"
+     inkscape:window-height="851"
+     inkscape:window-x="1"
+     inkscape:window-y="25"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g1758">
+    <inkscape:grid
+       type="xygrid"
+       id="grid1300"
+       spacingx="0.1"
+       spacingy="0.1" />
+  </sodipodi:namedview>
+  <path
+     d="m 5.5037072,3.4835296 c -0.5611186,0.00527 -0.9941301,0.5207547 -0.967158,1.1513601 l 0.3418596,7.9926853 0.00162,0.03791 -2.6025014,-2.04146 C 1.7304835,10.194754 1.041363,10.115221 0.60072587,10.639785 0.16002783,11.164346 0.19617872,12.008373 0.68132707,12.524231 L 5.063131,16 C 6.7638887,16 10.732323,16 13,16 L 12.859861,9.1257563 6.7638887,9.1830442 6.5685399,4.6157971 C 6.5415679,3.9851917 6.064826,3.4782597 5.5037072,3.483533 Z"
+     fill="#8da5f3"
+     fill-opacity="0.98824"
+     id="path2"
+     style="stroke-width:1.07728"
+     sodipodi:nodetypes="cscccccccccscc" />
+  <g
+     id="g8064"
+     transform="matrix(1.7857143,0,0,1.962963,-3.8928573,-7.277778)">
+    <g
+       id="g1758">
+      <rect
+         style="fill:#8da5f4;fill-opacity:0.988235;stroke:#8da5f4;stroke-width:0.0866025;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.988235"
+         id="rect5738"
+         width="3.3599999"
+         height="1.5094339"
+         x="7.5"
+         y="4.7452831"
+         ry="0.5" />
+      <path
+         style="fill:#8da5f4;fill-opacity:0.988235;stroke:#8da5f4;stroke-width:0.1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.988235"
+         d="M 6.5,5.5 8,4 v 3 z"
+         id="path6428"
+         sodipodi:nodetypes="cccc" />
+    </g>
+  </g>
+</svg>

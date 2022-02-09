@@ -1,0 +1,62 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://addons/swipe_controller/swipe_controller.gd" type="Script" id=1]
+[ext_resource path="res://addons/swipe_controller/example/example.gd" type="Script" id=2]
+
+[node name="Example" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+mouse_filter = 2
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="SwipeScreenArea" type="Node2D" parent="."]
+position = Vector2( 232, 168 )
+script = ExtResource( 1 )
+debug = true
+color_area_debug = Color( 0.156863, 0.129412, 0.941176, 1 )
+color_angle_separation = Color( 0, 1, 0.156863, 1 )
+MIN_LENGTH_VECTOR = 30
+
+[node name="SwipeScreenArea2" type="Node2D" parent="."]
+position = Vector2( 584, 264 )
+script = ExtResource( 1 )
+debug = true
+reset_on_finish = true
+area_size = Vector2( 400, 400 )
+MIN_LENGTH_VECTOR = 50
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+anchor_bottom = 1.0
+margin_right = 83.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="RefreshTime" type="Label" parent="VBoxContainer"]
+margin_right = 90.0
+margin_bottom = 14.0
+
+[node name="Label" type="Label" parent="VBoxContainer"]
+margin_top = 18.0
+margin_right = 90.0
+margin_bottom = 32.0
+text = "Input Actions:"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Inputs" type="RichTextLabel" parent="VBoxContainer"]
+margin_top = 36.0
+margin_right = 90.0
+margin_bottom = 600.0
+size_flags_vertical = 3
+scroll_following = true
+
+[node name="Refresh" type="Timer" parent="."]
+wait_time = 3.0
+one_shot = true
+
+[connection signal="timeout" from="Refresh" to="." method="_on_Refresh_timeout"]
