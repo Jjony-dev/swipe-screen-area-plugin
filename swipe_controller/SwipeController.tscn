@@ -1,0 +1,23 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://addons/swipe_controller/swipe_controller.gd" type="Script" id=1]
+
+[sub_resource type="RectangleShape2D" id=1]
+extents = Vector2( 256, 256 )
+
+[node name="SwipeController" type="Node2D"]
+position = Vector2( 176, 156 )
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_group_": true
+}
+debug = true
+reset_on_finish = true
+
+[node name="Areadetect" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Areadetect"]
+visible = false
+shape = SubResource( 1 )
+
+[connection signal="input_event" from="Areadetect" to="." method="_on_Areadetect_input_event"]

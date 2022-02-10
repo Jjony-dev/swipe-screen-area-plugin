@@ -5,7 +5,7 @@
 This plugin add a Node to manage discrete swipes on touchscreens devices as Input actions.
 
 # How to use
-> extract swipe_controller folder inside the res://android/addons directory on your Godot project.
+> extract swipe_controller folder inside the res://addons directory on your Godot project.
 
 > open Project > Project Settings and select Plugin tab. Check enable to activate the plugin.\n
 
