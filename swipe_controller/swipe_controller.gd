@@ -8,6 +8,7 @@ and emmit an action event set
 
 export var debug: bool = false setget set_debug
 export var reset_on_finish: bool = false
+export var TIME_ACTION_PRESSED: float= 0.2
 export var input_actions: PoolStringArray = ["ui_up", "ui_right", "ui_down", "ui_left"] setget set_input_actions
 export var area_size: Vector2 = Vector2(200, 200) setget set_area_detect
 export var color_area_debug: Color = Color.purple setget set_color_area_debug
@@ -103,6 +104,7 @@ func process_action(number : int) -> void:
 	ev_p.action = input_actions[number]
 	ev_p.pressed = true
 	Input.parse_input_event(ev_p)
+	yield(get_tree().create_timer(TIME_ACTION_PRESSED), "timeout")
 	var ev_r = InputEventAction.new()
 	scan = false
 	ev_r.pressed = false
